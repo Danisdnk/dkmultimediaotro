@@ -1,0 +1,199 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dani.html" resolutions="1x" timestamp="1496329471662">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="sobre-mi.css" crc="4253639766" ref="sobre-mi"/>
+    <file name="index.css" crc="3992752854" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:sobre-mi"/>
+    <file name="museutils.js" crc="4232573551" ref="index:sobre-mi"/>
+    <file name="whatinput.js" crc="86476730" ref="index:sobre-mi"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:sobre-mi"/>
+    <file name="webpro.js" crc="3770351119" ref="index:sobre-mi"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index:sobre-mi"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index:sobre-mi"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index:sobre-mi"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:sobre-mi"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index:sobre-mi"/>
+    <file name="require.js" crc="4234670167" ref="index:sobre-mi"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:sobre-mi"/>
+    <file name="u101_states.png" crc="4207407542" ref="index"/>
+    <file name="u101_states-r.png" crc="307256161" ref="index"/>
+    <file name="u103_states.png" crc="4106725822" ref="index"/>
+    <file name="u103_states-r.png" crc="150481805" ref="index"/>
+    <file name="u104_states.png" crc="334597269" ref="index"/>
+    <file name="u104_states-r.png" crc="4242548908" ref="index"/>
+    <file name="u102.png" crc="484303630" ref="index"/>
+    <file name="u102-r.png" crc="500927196" ref="index"/>
+    <file name="svg-pegado-409569x410.svg" crc="143869063" seo="true" ref="index:sobre-mi">
+      <caption webpage="index" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 409569x410_poster_.png" crc="268717031" ref="index"/>
+    <file name="svg-pegado-227783x221.svg" crc="355873876" seo="true" ref="index:sobre-mi">
+      <caption webpage="index" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 227783x221_poster_.png" crc="3993697859" ref="index"/>
+    <file name="svg-pegado-341593x318.svg" crc="267820847" seo="true" ref="index:sobre-mi">
+      <caption webpage="index" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 341593x318_poster_.png" crc="4012234565" ref="index"/>
+    <file name="svg-pegado-100293x58.svg" crc="4226512628" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 100293x58_poster_.png" crc="4277066185" ref="index"/>
+    <file name="svg-pegado-99293x57.svg" crc="4104305874" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 99293x57_poster_.png" crc="3868229649" ref="index"/>
+    <file name="svg-pegado-93929x57.svg" crc="62884865" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 93929x57_poster_.png" crc="4095570217" ref="index"/>
+    <file name="svg-pegado-409569x4102.svg" crc="127488556" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 409569x410_poster_2.png" crc="445678471" ref="index"/>
+    <file name="svg-pegado-113913x70.svg" crc="3767256898" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 113913x70_poster_.png" crc="318502191" ref="index"/>
+    <file name="svg-pegado-112913x69.svg" crc="3762089711" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 112913x69_poster_.png" crc="530065668" ref="index"/>
+    <file name="svg-pegado-107702x93.svg" crc="3775767766" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 107702x93_poster_.png" crc="302292705" ref="index"/>
+    <file name="svg-pegado-106547x92.svg" crc="61726199" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 106547x92_poster_.png" crc="203091926" ref="index"/>
+    <file name="1.png" crc="3759345305" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="info detalle.jpg" crc="491478943" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tapa.png" crc="3952274963" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1490-7.png" crc="4230022860" ref="index"/>
+    <file name="u1854-9.png" crc="528206477" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="mm2.png" crc="228305825" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jum1.jpg" crc="4033618205" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2218-9.png" crc="398185788" ref="index"/>
+    <file name="u3085-10.png" crc="4154285884" ref="index"/>
+    <file name="u1061-4.png" crc="4072842392" ref="index"/>
+    <file name="u2013-4.png" crc="115265532" ref="index"/>
+    <file name="info1.png" crc="349145529" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tapamin.jpg" crc="4093114270" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="clubmilanesa.jpg" crc="171817802" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jum.jpg" crc="302262507" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="panes.jpg" crc="381390893" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3234-10.png" crc="4154285884" ref="index"/>
+    <file name="u2888-4.png" crc="455216046" ref="index"/>
+    <file name="u3293-4.png" crc="3773658956" ref="index"/>
+    <file name="2.png" crc="267643547" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.png" crc="3989330324" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.png" crc="4109522400" seo="true" ref="index:sobre-mi">
+      <caption webpage="index" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="u3523_states.png" crc="4207407542" ref="sobre-mi"/>
+    <file name="u3523_states-r.png" crc="326756294" ref="sobre-mi"/>
+    <file name="u3525_states.png" crc="4106725822" ref="sobre-mi"/>
+    <file name="u3525_states-r.png" crc="150481805" ref="sobre-mi"/>
+    <file name="u3526_states.png" crc="334597269" ref="sobre-mi"/>
+    <file name="u3526_states-r.png" crc="4242548908" ref="sobre-mi"/>
+    <file name="u3521.png" crc="484303630" ref="sobre-mi"/>
+    <file name="u3521-r.png" crc="500927196" ref="sobre-mi"/>
+    <file name="svg-pegado-167x74.svg" crc="416780027" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 167x74_poster_.png" crc="4293941967" ref="sobre-mi"/>
+    <file name="svg-pegado-330464x98.svg" crc="127803806" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 330464x98_poster_.png" crc="3815881140" ref="sobre-mi"/>
+    <file name="svg-pegado-125164x47.svg" crc="4205484144" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 125164x47_poster_.png" crc="3852612398" ref="sobre-mi"/>
+    <file name="svg-pegado-72455x69.svg" crc="64611277" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 72455x69_poster_.png" crc="4019852990" ref="sobre-mi"/>
+    <file name="svg-pegado-47161x3.svg" crc="423398313" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 47161x3_poster_.png" crc="4210927519" ref="sobre-mi"/>
+    <file name="svg-pegado-299071x71.svg" crc="3930439088" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 299071x71_poster_.png" crc="4186026583" ref="sobre-mi"/>
+    <file name="svg-pegado-148535x43.svg" crc="3976913958" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 148535x43_poster_.png" crc="3896896183" ref="sobre-mi"/>
+    <file name="svg-pegado-330072x46.svg" crc="447692457" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 330072x46_poster_.png" crc="517486131" ref="sobre-mi"/>
+    <file name="svg-pegado-4709x3.svg" crc="3908401338" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 4709x3_poster_.png" crc="3861487079" ref="sobre-mi"/>
+    <file name="svg-pegado-110333x98.svg" crc="4059593917" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 110333x98_poster_.png" crc="406273533" ref="sobre-mi"/>
+    <file name="svg-pegado-410.svg" crc="229847356" seo="true" ref="sobre-mi">
+      <caption webpage="sobre-mi" alt=""/>
+    </file>
+    <file name="svg pegado 410_poster_.png" crc="4293953630" ref="sobre-mi"/>
+    <file name="svg-pegado-9925x39.svg" crc="522533608" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg pegado 9925x39_poster_.png" crc="47966594" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3793655660" seo="true" mt="1496329049067" redirect="true"/>
+  <file name="sobre-mi.html" crc="386264595" seo="true" mt="1496327269220" redirect="true"/>
+</manifest>

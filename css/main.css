@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    height: 1080px
+}
+
+#Index {
+    display: flex;
+    justify-content: flex-end
+}
+
+.lista {
+    list-style-type: none;
+    justify-items: flex-end;
+    border-right: 25px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 10px solid transparent
+}
+
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000
+}
+
+#pospo {
+    display: block;
+    background-color: brown;
+    width: 30px;
+    height: 30px
+}
+
+#slideContainer {
+    width: 400%;
+    height: 100%
+}
+
+.panel {
+    height: 100%;
+    width: 25%;
+    float: left
+}
+
+.contenido {
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    height: auto
+}
+
+.titulo {
+    color: #c81d3a;
+    font-family: PrioriSan;
+    font-size: 24px;
+    margin-top: 5%;
+    width: 300px;
+    margin-right: 0;
+    margin-left: 1%;
+    height: 300px
+}
+
+h5 {
+    color: #c81d3a;
+    font-family: PrioriSan;
+    font-size: 72px;
+    text-align: right
+}
+
+.svgdinamico {
+    display: block;
+    width: 70%;
+    height: auto
+}
+
+.cls-1,
+.cls-2 {
+    fill: none;
+    stroke-miterlimit: 10
+}
+
+.cls-1 {
+    stroke: #263680;
+    stroke-width: 2px
+}
+
+.cls-2 {
+    stroke: #c81d3a
+}
+
+.cls-3 {
+    fill: none
+}
+
+.rosa {
+    stroke: none
+}
+
+.rosafilled {
+    fill: none
+}
+
+.filled {
+    fill: #fff
+}
+
+.pinkfill {
+    fill: #c81d3a
+}
+
+.dibujoGrafico {
+    stroke: #263680;
+    stroke-width: 2px
+}
+
+#dos {
+    background-color: #663399
+}
+
+#tres {
+    background-color: #c81d3a
+}
+
+#ttres {
+    background-color: #6495ed
+}
+
+.boxPrin {
+    width: 1850px;
+    left: 1930px;
+    right: 0;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+    background-color: #7fffd4
+}
+
+.container_work {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly
+}
+
+.box {
+    width: 30%;
+    height: 30vh;
+    margin-top: 13%
+}
+
+.box:hover {
+    background-color: hsla(229, 54%, 33%, .5)
+}
+
+#juego_milanesa {
+    background-attachment: fixed
+}
+
+#juego_milanesa:hover {
+    background-color: hsla(229, 54%, 33%, .5)
+}

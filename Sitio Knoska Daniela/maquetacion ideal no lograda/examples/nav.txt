@@ -1,0 +1,12 @@
+<ul class="cajaicono">
+                
+                <li class="color web"> <a href="#vodeogames"> </a> </li>
+        
+    <li class="color" ><li class="color"> <a href="#vodeogames">
+    <img width="70" height="70" src="" class="juegos"alt=""/> </a></li>
+                
+            <li class="color"> <a> <div class="pospo"> </div> </a></li>
+                
+            <li class="color graf "> <a>  <div class="graf"></div> </a> </li>
+
+            </ul>

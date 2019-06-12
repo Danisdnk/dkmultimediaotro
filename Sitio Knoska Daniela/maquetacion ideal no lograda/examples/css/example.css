@@ -1,0 +1,580 @@
+ul{
+    
+    background-color: aqua;
+}
+
+
+
+html,
+body
+{
+  padding:0;
+  margin:0;
+  font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    box-sizing: content-box;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+  background: url('../images/bg.jpg') repeat top left;
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: normal;
+  color: #2e6e80;
+}
+
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+  z-index:1;
+    background-attachment:fixed;
+    
+}
+
+.middle
+{
+  z-index: 500;
+  width: 4000px;
+}
+
+.front
+{
+  z-index: 1000;
+  width: 6000px;
+}
+
+.boxes 
+{
+    position: fixed;
+    top: 10px;
+    bottom:10px;
+    left: 14px;
+    right:0px;
+    height: 50px;
+    width: 50px;
+    border-width: medium;
+    float: right;
+    background-size: contain;
+    border-style: none;
+}
+
+
+boxes a:hover {
+    background-color:#3a297b;
+      z-index: 500000;
+    position: fixed;
+    top: 10px;
+    bottom:10px;
+    left: 14px;
+    right:0px;
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url("/examples/images/menuhov.png") ;
+    background-size: contain;
+    border-style: none;
+}
+}
+
+.flotante {
+
+    z-index:50;
+    overflow-y: visible;
+        overflow-x: visible;
+    font-size: 10em;
+    margin-left: 1200px;
+    height: 50vh;
+    text-align: center;
+position: fixed;
+}
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.boxes_padre {
+    background-color: rebeccapurple;
+    position: absolute;
+    width:500px;
+    height: 500px;
+    top: 100px;
+    bottom: 100px;
+    z-index: 10000;
+    left: 500px;
+
+
+}
+
+/* hasta 1280 x 1024
+.cajaicono {
+    left:14%;
+    bottom:0;
+    top:600px;
+    right:0;
+    box-sizing: content-box;
+    background-color: darkblue;
+    position: absolute;
+    height:30vh;
+    width: 70px;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;/
+    
+}
+*/
+.cajaicono {
+    left:17%;
+    bottom:0;
+    top:378px;
+    right:0;
+    box-sizing: content-box;
+    background-color: aqua;
+    position: absolute;
+    height:30vh;
+    width: 70px;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.color {
+margin-top:30px; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    backface-visibility: visible;
+}
+
+.dg {
+    padding:0;
+    margin:0;
+    left:25%;
+    bottom:0;
+    top:;
+    right:0;
+    background-color: black;
+    position: absolute;
+    height:1080px;
+   
+    box-sizing: border-box;/
+    display: inline-block; 
+    width: 1920px;
+}
+
+.vj {
+    padding:0;
+    margin:0;
+    left:50%;
+    bottom:0;
+    top:;
+    right:0;
+    background-color: green;
+    position: absolute;
+    height:1080px;
+    box-sizing: border-box;/
+    display: inline-block; 
+    width: 1920px;
+}
+
+.tresde {
+
+    padding:0;
+    margin:0;
+    left:75%;
+    bottom:0;
+    top:;
+    right:0;
+    background-color: yellow;
+    position: absolute;
+    height:1080px;
+   
+    box-sizing: border-box;/
+    display: inline-block; 
+    width: 1920px;
+}
+svg{
+    line-height: 8px;
+}
+.games:hover{
+ 
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #C70D2A;
+    position: absolute;
+    border-radius: 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    animation: zoomIn 2s  linear;
+    text-align: center;
+}
+@keyframes zoomIn {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+      transform: scale3d(.9, .9, .9);
+  }
+ 90% {
+    opacity: .6;
+
+  }
+     100% {
+       width: 1960px;
+    height: 1960px;
+    opacity: 0;
+
+  }
+}
+
+
+.circulo2 {
+    top:0;
+    left: 0;
+    bottom:0px;
+    right: 0px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border-radius: 100%;
+    animation: zoomIn2 3s infinite linear;
+    margin: auto;
+}
+
+@keyframes zoomIn2 {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+      transform: scale3d(.9, .9, .9);
+  }
+ 90% {
+    opacity: .7;
+
+  }
+     100% {
+       width: 1920px;
+    height: 1920px;
+    opacity: 1;
+
+  }
+}
+
+
+
+.spinner{
+    width: 50%;
+    height: 50%;
+    border-top:3px solid #C70D2A;
+    border-radius: 100%;
+    background-color:transparent;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+.spinner2{
+    background-color:transparent;
+    border-top:3px solid #C70D2A;
+    border-radius: 100%;
+    border-color: none;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: spin2 7s infinite linear;
+}
+
+@keyframes spin2 {
+    from{
+        transform: rotate(360deg);
+    }to{
+        transform: rotate(0deg);
+    }
+}
+.container {
+    width: 450px;
+    height:450px;
+    top:300px;
+    left: 750px;
+    bottom:0px;
+    right: 0px;
+    position: absolute;
+    box-sizing:content-box;
+    
+}
+
+.spinner3 {
+     width: 45%;
+    height: 45%;
+ border-top:2px solid #C70D2A;
+    border-radius: 100%;
+    background-color:transparent;
+     border-color: none;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    animation: spin3 6s infinite linear;
+
+}
+@keyframes spin3 {
+    from{
+        transform: rotate(360deg);
+    }to{
+        transform: rotate(0deg);
+    }
+}
+
+.spinner4{
+    background-color:transparent;
+    border-bottom:3px solid #C70D2A;
+    border-radius: 100%;
+    border-color: none;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: spin2 7s infinite linear;
+}
+.web {
+     margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:auto; 
+    height:auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-image: url("images/web.svg");
+
+   
+}
+.a web:hover {
+   margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+      background-image: url("images/webhov.svg");
+    z-index: auto;
+}
+
+.graf 
+{
+ margin-top:auto; 
+    list-style-type: none;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/examples/images/grap.png") ;
+}
+
+
+.graf:hover {
+    line-height: 32px;
+    margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/examples/images/graphov.png") ;
+}
+
+
+
+
+
+.pospo {
+    
+    
+    margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+ background-image:url("images")
+    
+}
+ul li a pospo:hover  {
+    margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/examples/images/pospohov.png") ;
+}
+
+
+
+
+
+.juegos {
+    
+   margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-image: url("images/juegos.svg");
+}
+
+
+.juegos a:hover {
+  margin-top:auto; 
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    width:70px; 
+    height:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-image: ("images/juegoshov.svg");
+}
+
+
+
+
+
+
+.menu {
+    
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image:url("/abcd/examples/images/menu.png") ;
+    background-size: contain;
+}
+
+.body boxes menu:hover {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url("/abcd/examples/images/menuhov.png") ;
+    background-size: contain;
+    
+}
+
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+section {
+    width: auto;
+    padding:0;
+    margin:0;
+    left:20%;
+    bottom:0;
+    top:;
+    right:0;
+    background-color: none;
+    position: absolute;
+    height:1080px;
+    box-sizing: border-box;/
+    display: inline-block; 
+}
+
+.dw {
+    padding:0;
+    margin:0;
+    left:0%;
+    bottom:0;
+    top:;
+    right:0;
+    background-color: purple;
+    position: absolute;
+    height:1080px;
+    box-sizing: border-box;/
+    display: inline-block; 
+    width: 1920px;
+}
+
