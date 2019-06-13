@@ -7,5 +7,7 @@
     .addIndicators({ name: "1 (duration: 300)" }) // add indicators (requires plugin)
         .addTo(movimiento);
 }); */
-TweenMax.to("#desplaz", 1.2, { y: 100 });
+TweenMax.to("body", 1.2, { y: 100 });
+
+
 TweenMax.to(".nubepin", 10, { y: 50 });
