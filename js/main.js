@@ -76,6 +76,7 @@ $(function () { // wait for document ready
     var $_4hojasanim = $("path._4hojasanim");
     var $_5poster = $("rect#_5poster");
     var $_55libro = $("path._55libro");
+    var $_6lineacursor1 = $("path._6lineacursor1");
     var $_6lineacursor2 = $("path._6lineacursor2");
 
 
@@ -117,6 +118,7 @@ $(function () { // wait for document ready
     pathPrepare($_4hojasanim);
     pathPrepare($_5poster);
     pathPrepare($_55libro);
+    pathPrepare($_6lineacursor1);
     pathPrepare($_6lineacursor2);
 
     // build tween
@@ -205,8 +207,10 @@ $(function () { // wait for document ready
         .add(TweenMax.to($_3hojasestaticas, 0.6, { strokeDashoffset: 0, fill: '#ffffff', ease: Linear.easeNone }))  // draw dot for 0.1
         .add(TweenMax.to($_4hojasanim, 1, { strokeDashoffset: 0, fill: '#ffffff', ease: Linear.easeNone }))  // draw dot for 0.1
         .add(TweenMax.to($_5poster, 0.6, { strokeDashoffset: 0, ease: Linear.easeNone }))  // draw dot for 0.1
+        .add(TweenMax.to($_6lineacursor1, 0.4, { strokeDashoffset: 0, fill: '#c81d3a', ease: Linear.easeNone }))  // draw dot for 0.1
+        
         .add(TweenMax.to($_55libro, 1, { strokeDashoffset: 0, fill: '#ffffff', ease: Linear.easeNone }))  // draw dot for 0.1
-        .add(TweenMax.to($_6lineacursor2, 0.6, { strokeDashoffset: 0, ease: Linear.easeNone }))  // draw dot for 0.1
+        .add(TweenMax.to($_6lineacursor2, 0.5, { strokeDashoffset: 0, ease: Linear.easeNone }))  // draw dot for 0.1
 
     var panel4 = new ScrollMagic.Scene({
         triggerElement: "#pinContainer",
