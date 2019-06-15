@@ -138,7 +138,7 @@ h5 {
     position: absolute;
     box-sizing: border-box;
     display: none;
-    background-color: #7fffd4
+
 }
 
 .container_work {
@@ -148,19 +148,36 @@ h5 {
 }
 
 .box {
-    width: 30%;
-    height: 30vh;
-    margin-top: 13%
+    width: 60%;
+    height: 40vh;
+    margin: 5%;
+    margin-top: 10%;
+    background-color: #6495ed;
+    border-radius: 2em;
+    border: 1px solid #263680;
+ 
 }
 
 .box:hover {
-    background-color: hsla(229, 54%, 33%, .5)
-}
+    background: hsl(229, 54%, 33%, 1);
+    opacity: 0.5;
+background-blend-mode: multiply;}
 
 #juego_milanesa {
-    background-attachment: fixed
+background-image: url(/pages/interactivos/juego.png);
+background-size: cover;
+background-repeat: no-repeat;
+
 }
 
-#juego_milanesa:hover {
-    background-color: hsla(229, 54%, 33%, .5)
+
+
+.Show_Proyectos{
+    border-radius: 20%;
+    background-color: #c81d3a;
+
+
+}
+.Show_Proyectos:hover{
+background-color: hsl(350, 33%, 61%);
 }
