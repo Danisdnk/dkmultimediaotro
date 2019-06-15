@@ -222,9 +222,8 @@ $(function () { // wait for document ready
 
     $(".Show_Proyectos").click(function () {
         $("#UNO").hide();
-        $(".boxPrin").slideDown("slow", function () {
-            // Animation complete.
-        });
+        TweenMax.to(".boxPrin", 2, { y: 60 });
+        $(".boxPrin").slideDown(800).delay( 800 ).fadeIn( 600 );
 
     });
 
